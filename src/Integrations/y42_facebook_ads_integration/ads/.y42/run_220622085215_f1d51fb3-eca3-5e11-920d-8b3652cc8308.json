@@ -1,6 +1,6 @@
 {
   "request_id": "220622085215_f1d51fb3-eca3-5e11-920d-8b3652cc8308",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "11aab5a6-462f-432a-9228-8bdf1d528808",
     "target_credentials": "5818b32e-7e7e-4d0a-a738-5982d2d092bc",
@@ -50,7 +50,26 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a51d34-0101-4a6f-0001-2c920032e0e6",
     "storage_file": "azure://y42snowflake.blob.core.windows.net/y42-container/userUploads/v2/tap-facebook-datos/73632658-7431-4755-9365-c8296b7a2717",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-22T08:52:48.883867+00:00",
+    "row_count": 55,
+    "current_import_row_count": 55,
+    "size_in_bytes": 1536,
+    "columns": [
+      {
+        "field_name": "bid_type",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      }
+    ],
+    "table_name": "220622085215_f1d51fb3-eca3-5e11-920d-8b3652cc8308",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220622085215_f1d51fb3-eca3-5e11-920d-8b3652cc8308"
   },
-  "_signature": "6o+GB6/qc7liF0gCs72nwufXScZyTNw5RkJoO2L7gzehU0u6+/AbsHfc0x8UH2Xhi1+JqSDCeF4cCRpF8dwEDw=="
+  "finished_at": "2022-06-22T08:52:48.884176+00:00",
+  "_signature": "0b1OmSD9mpJFNcdtrkHMc+1CPdgCP8qhhd0K8SvkBjCuCZq8JJBDbUyrgsvBdxfMIYhwaopvftHagZQVmqkNBQ=="
 }
